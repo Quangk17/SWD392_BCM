@@ -1,0 +1,11 @@
+D:\C#_Learn\SWD392_BCM\Services\bin\Debug\net8.0\Services.deps.json
+D:\C#_Learn\SWD392_BCM\Services\bin\Debug\net8.0\Services.dll
+D:\C#_Learn\SWD392_BCM\Services\bin\Debug\net8.0\Services.pdb
+D:\C#_Learn\SWD392_BCM\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_Learn\SWD392_BCM\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\C#_Learn\SWD392_BCM\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\C#_Learn\SWD392_BCM\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\C#_Learn\SWD392_BCM\Services\obj\Debug\net8.0\Services.dll
+D:\C#_Learn\SWD392_BCM\Services\obj\Debug\net8.0\refint\Services.dll
+D:\C#_Learn\SWD392_BCM\Services\obj\Debug\net8.0\Services.pdb
+D:\C#_Learn\SWD392_BCM\Services\obj\Debug\net8.0\ref\Services.dll
