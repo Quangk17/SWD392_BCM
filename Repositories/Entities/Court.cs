@@ -9,13 +9,14 @@ namespace Repositories.Entities
    public class Court: BaseEntity
     {
         public string? Name { get; set; }
+        public int? StoreID { get; set; }
         public int? SlotID { get; set; }
-        public bool StatusCourt { get; set; }
+        public bool? Status { get; set; }
 
 
         //R
-        public virtual Store? Store { get; set; }
-        public virtual IEnumerable<Schedule>? Schedules { get; set; }
+        public virtual Store Store { get; set; }
+        public virtual IEnumerable<Schedule> Schedules { get; set; }
 
     }
 }
