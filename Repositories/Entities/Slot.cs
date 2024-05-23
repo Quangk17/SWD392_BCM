@@ -8,12 +8,11 @@ namespace Repositories.Entities
 {
     public class Slot: BaseEntity
     {
-        public string? Name { get; set; }
-        public DateTime StartHours { get; set; }
-        public DateTime EndHours { get; set; }
+        public string? name { get; set; }
+        public DateTime startHours { get; set; }
+        public DateTime endHours { get; set; }
 
-        //R
-        public virtual Schedule? Schedule { get; set; }
+        public virtual IEnumerable<Schedule> Schedules { get; set; }
 
 
     }

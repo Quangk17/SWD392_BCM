@@ -8,13 +8,13 @@ namespace Repositories.Entities
 {
     public class Store : BaseEntity
     {
-        public string? Name { get; set; }
-        public string? Address { get; set; }
-        public bool Status {  get; set; }
-        public DateTime? TimeActive { get; set; }
-        public int? UserId { get; set; }
+        public string? name { get; set; }
+        public string? address { get; set; }
+        public bool? status {  get; set; }
+        public DateTime? timeActive { get; set; }
+        public int? userId { get; set; }
         //R
-        public virtual IEnumerable<Court>? Court { get; set; }
+        public virtual IEnumerable<Court> Courts { get; set; }
         public virtual User? User { get; set; }
 
 

@@ -10,6 +10,8 @@ namespace Repositories.Entities
     {
         public string? Type { get; set; }
         public DateTime Time { get; set; }
+        public int? bookingID {  get; set; }
+        public virtual Booking Booking { get; set; }
 
     }
 }

@@ -8,14 +8,17 @@ namespace Repositories.Entities
 {
     public class Schedule: BaseEntity
     {
-        public float Price { get; set; }
-        public bool Status { get; set; }  
-        public DateTime Date { get; set; }
+        public float? price { get; set; }
+        public bool? status { get; set; }  
+        public DateTime? date { get; set; }
+
+        public int? courtID { get; set; }
+        public int? slotID { get; set; }
 
         //R
-        public virtual Court? Court { get; set; }
-        public virtual Booking? Booking { get; set; }
-        public virtual Slot? Slot { get; set; } 
+        public virtual Court Court { get; set; }
+        public virtual BookingDetail BookingDetail { get; set; }
+        public virtual Slot Slot { get; set; } 
 
     }
 }

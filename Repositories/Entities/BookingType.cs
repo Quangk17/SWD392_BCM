@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace Repositories.Entities
 {
-    public class Role: BaseEntity
+    public class BookingType : BaseEntity
     {
-        public string? RoleName { get; set; }
-
-        public virtual IEnumerable<User> Users { get; set; }
-
-
+        public string? name { get; set; }
+        public virtual IEnumerable<Booking> Bookings { get; set;}
     }
 }
