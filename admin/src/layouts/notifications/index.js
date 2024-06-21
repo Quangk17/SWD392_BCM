@@ -61,7 +61,7 @@ function Notifications() {
       color="success"
       icon="check"
       title="Material Dashboard"
-      content="Hello, world! This is a notification message"
+      content="Hello, world! "
       dateTime="11 mins ago"
       open={successSB}
       onClose={closeSuccessSB}
