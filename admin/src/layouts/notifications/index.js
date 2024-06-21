@@ -74,7 +74,7 @@ function Notifications() {
     <MDSnackbar
       icon="notifications"
       title="Material Dashboard"
-      content="Hello, world! This is a notification message"
+      content="Hello, world! "
       dateTime="11 mins ago"
       open={infoSB}
       onClose={closeInfoSB}
